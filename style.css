@@ -33,6 +33,49 @@ h3 {
     color: #ffffff;
 }
 
+.img486 {
+    height: 150vh;
+    background-color: gray;
+    background-image: url(img/Grupo\ 486.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
+.Interseção {
+    height: 150vh;
+    background-color: gray;
+    background-image: url(img/Interseção\ 16.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
+.img480 {
+    height: 150vh;
+    background-color: gray;
+    background-image: url(img/Grupo\ 480.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.h1 {
+    width: 486px;
+    height: 118px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: normal bold 200px/250px;
+    color: #FFFFFF;
+
+
+}
+
+
+
+
 
 /*
 main {

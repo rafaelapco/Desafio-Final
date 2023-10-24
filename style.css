@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    height: 10vh;
+    width: 100vw;
+    opacity: 3;
+    display: flex; /* Tornar o header um container flexível */
+    justify-content: flex-start;
+    align-items: center; /* Centralizar verticalmente os elementos */
+}
+ /* não mexer daqui para cima, por enquanto */
+
+ .logo {
+    margin-top: 1.7vh;
+    margin-left: 5.2vw;
+    width: 1px;
+    height: 1px;
+    background: black 0% 0% no-repeat padding-box;
+    box-sizing: border-box; /* Defina o box-sizing para border-box */
+}
+
+h3 {
+    margin-left: 15.5vw;
+    width: 8.3vw;
+    height: 6vh;
+    font: normal bold 15px/18px; /* Correção na definição da fonte */
+    letter-spacing: 0.32px;
+    color: #ffffff;
+}
+
+
+/*
+main {
+    height: 100%;
+    background-color: black;
+    background-image: url(img/Grupo\ 486.png);
+    background-size: cover;
+}
+

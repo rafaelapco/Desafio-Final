@@ -4,33 +4,37 @@
     box-sizing: border-box;
 }
 
-header {
+.logotipo {
+    display: flex;
+    align-items: center; /* Alinhe o logotipo verticalmente ao centro */
+    justify-content: flex-start;
+  }
+  
+  .icones {
+    display: flex;
+    justify-content: flex-end; /* Alinhe os ícones no final do lado direito */
+    align-items: center;
+  }
+  
+  header {
     background-color: black;
     height: 10vh;
     width: 100vw;
-    opacity: 3;
-    display: flex; /* Tornar o header um container flexível */
-    justify-content: flex-start;
-    align-items: center; /* Centralizar verticalmente os elementos */
-}
+    display: flex;
+    justify-content: space-between; /* Distribua os elementos ao máximo nas extremidades */
+    align-items: center; /* Alinhe o header verticalmente ao centro */
+  }
+  
  /* não mexer daqui para cima, por enquanto */
 
- .logo {
-    margin-top: 1.7vh;
-    margin-left: 5.2vw;
-    width: 1px;
-    height: 1px;
-    background: black 0% 0% no-repeat padding-box;
-    box-sizing: border-box; /* Defina o box-sizing para border-box */
-}
 
-h3 {
+.nome-nav {
     margin-left: 15.5vw;
-    width: 8.3vw;
-    height: 6vh;
-    font: normal bold 15px/18px; /* Correção na definição da fonte */
+    width: 1vw;
+    height: 1vh;
+    font: normal bold 15px/18px;
     letter-spacing: 0.32px;
-    color: #ffffff;
+    color: #f11890;
 }
 
 .img486 {
@@ -61,18 +65,22 @@ h3 {
 }
 
 
-.h1 {
-    width: 486px;
-    height: 118px;
+.título {
     display: flex;
     justify-content: center;
-    text-align: center;
-    font: normal bold 200px/250px;
+    align-items: center;
+    height: 100vh;
+    font: normal bold;
     color: #FFFFFF;
-
-
 }
 
+
+h1 {
+    font-size: 100px;
+    max-width: 800px;
+    text-align: center;
+    word-wrap: break-word;
+}
 
 
 

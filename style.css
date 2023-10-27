@@ -77,11 +77,14 @@ header {
 
 .txt2 {
     display: flex;
-    justify-content: left;
-    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     height: 100vh;
     font: normal bold;
     color: #3A1D1D;
+    width: 50%;
+    padding: 20px;
 }
 
 .txt3 {

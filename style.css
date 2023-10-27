@@ -4,58 +4,59 @@
     box-sizing: border-box;
 }
 
-.logotipo {
-    display: flex;
-    align-items: center; /* Alinhe o logotipo verticalmente ao centro */
-    justify-content: flex-start;
-  }
-  
-  .icones {
-    display: flex;
-    justify-content: flex-end; /* Alinhe os ícones no final do lado direito */
-    align-items: center;
-  }
-  
-  header {
-    background-color: black;
+
+header {
     height: 10vh;
-    width: 100vw;
+    background-color: black;
     display: flex;
-    justify-content: space-between; /* Distribua os elementos ao máximo nas extremidades */
-    align-items: center; /* Alinhe o header verticalmente ao centro */
-  }
-  
- /* não mexer daqui para cima, por enquanto */
-
-
-.nome-nav {
-    margin-left: 15.5vw;
-    width: 1vw;
-    height: 1vh;
-    font: normal bold 15px/18px;
-    letter-spacing: 0.32px;
-    color: #f11890;
+    align-items: center;
 }
 
-.img486 {
+.logotipo {
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    margin-right: 70rem;
+    color: white;
+}
+
+.nome {
+    margin:6%;
+    font-size: 1rem;
+    letter-spacing: 0.32px;
+}
+
+.patinha {
+    width: 20%;
+}
+
+.icones {
+    margin-right: 2rem; 
+    display: flex;
+    justify-content: space-evenly;
+    width: 10%;
+}
+
+.background1 {
     height: 150vh;
     background-color: gray;
     background-image: url(img/Grupo\ 486.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0% 0%;
+    background-position: center;
 }
 
-.Interseção {
+.background2 {
     height: 150vh;
     background-color: gray;
     background-image: url(img/Interseção\ 16.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 0%;
+    border: solid black;
 }
 
-.img480 {
+.background3 {
     height: 150vh;
     background-color: gray;
     background-image: url(img/Grupo\ 480.png);
@@ -64,8 +65,26 @@
     background-position: center;
 }
 
+  
+.txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
 
-.título {
+.txt2 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+    font: normal bold;
+    color: #3A1D1D;
+}
+
+.txt3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,22 +93,59 @@
     color: #FFFFFF;
 }
 
-
 h1 {
-    font-size: 100px;
-    max-width: 800px;
-    text-align: center;
+    height: 35vh;
+    font-size: 60px;
+    font-style: normal;
+    font-family: 'Roboto Serif', serif
+    font-weight:bold;
+    max-width: 500px;
     word-wrap: break-word;
+    color: white;
 }
 
-
-
-
-/*
-main {
-    height: 100%;
-    background-color: black;
-    background-image: url(img/Grupo\ 486.png);
-    background-size: cover;
+.pata {
+    width: 12%;
 }
 
+/*mexer acima dessa parte*/
+
+.patrocinadores {
+    background-color: white;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: pink; 
+}
+
+footer {
+    background-color: #EB4A7B;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+
+.footer-section {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+li {
+    margin: 5px 0;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}

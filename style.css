@@ -225,3 +225,44 @@ footer {
     font-weight: 700;
     cursor: pointer;
 }
+
+@media screen and (max-width: 375px) {
+    .youtube-icone, .instagram-icone {
+        display: none;
+    }
+
+    .patrocinadores {
+        flex-direction: column;
+    }
+
+    .txt2 {
+        margin-left: 1rem;
+        width: 100%;
+    }
+    
+    .txt2 h2 {
+        font-size: 39px;
+        margin-bottom: 0.3rem;
+    }
+    
+    .txt2 p {
+        font-size: 29px;
+        margin-bottom: 0.3rem;
+    }
+    
+    .txt2 button.fale-conosco {
+        margin-top: 0.5rem;
+        width: 10.5rem;
+        height: 3rem;
+        font-size: 17px;
+    }
+    
+
+    .background2 {
+        background-image: url("img/Grupo\ 484.png");
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}

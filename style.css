@@ -243,7 +243,7 @@ footer {
     .tela1 h2 {
         font-size: 39px;
         text-align: center;
-     }
+    }
     
     .tela2 {
         margin-left: 1rem;
@@ -331,11 +331,24 @@ footer {
         margin: 0.6rem;
     }
     
-
-    .footer-section {
-        width: 100%;
+    footer {
+        align-items: center;
     }
 
+    .logotipo-footer {
+        max-width: 12.5rem;
+        height: auto;
+    }
 
+    .footer-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Alinha a imagem do logotipo ao centro */
+    }
+
+    .midia-icon {
+        display: inline-block;
+        margin: 5px; /* Espaçamento entre os ícones de mídia */
+    }
 
 }

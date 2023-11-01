@@ -40,6 +40,7 @@ header {
 
 .background1 {
     height: 100%;
+    padding-bottom: 20%;
     background-color: gray;
     background-image: url(img/Grupo\ 486.png);
     background-size: cover;
@@ -49,6 +50,7 @@ header {
 
 .background2 {
     height: 100%;
+    padding-bottom: 20%;
     background-color: gray;
     background-image: url(img/Interseção\ 16.png);
     background-size: cover;
@@ -58,6 +60,7 @@ header {
 
 .background3 {
     height: 100%;
+    padding-bottom: 20%;
     background-color: gray;
     background-image: url(img/Grupo\ 480.png);
     background-size: cover;

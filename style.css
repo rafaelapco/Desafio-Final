@@ -39,7 +39,7 @@ header {
 }
 
 .background1 {
-    height: 150vh;
+    height: 100%;
     background-color: gray;
     background-image: url(img/Grupo\ 486.png);
     background-size: cover;
@@ -48,7 +48,7 @@ header {
 }
 
 .background2 {
-    height: 150vh;
+    height: 100%;
     background-color: gray;
     background-image: url(img/Interseção\ 16.png);
     background-size: cover;
@@ -57,12 +57,11 @@ header {
 }
 
 .background3 {
-    height: 150vh;
+    height: 100%;
     background-color: gray;
     background-image: url(img/Grupo\ 480.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -72,10 +71,10 @@ header {
 .tela1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
     height: 100vh;
+    padding-top: 7rem;
 }
 
 .tela2 {
@@ -116,7 +115,7 @@ h1 {
     height: 20vh;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     color: pink; 
 }
@@ -212,6 +211,11 @@ footer {
     cursor: pointer;
 }
 
+.fale-conosco:hover {
+    background-color: #fff;
+    color: #3A342F;
+}    
+
 .fale-conosco2 {
     display: flex;
     flex-direction: column;
@@ -230,7 +234,20 @@ footer {
     cursor: pointer;
 }
 
-@media screen and (max-width: 375px) {
+.fale-conosco2:hover {
+    background-color: #3A342F;
+    color: #fff;
+} 
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 830px) {
     .youtube-icone, .instagram-icone {
         display: none;
     }
@@ -243,11 +260,14 @@ footer {
     .tela1 h2 {
         font-size: 39px;
         text-align: center;
+        margin-left: 1rem;
     }
     
     .tela2 {
         margin-left: 1rem;
-        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 4rem;
     }
     
     .tela2 h2 {
@@ -268,9 +288,13 @@ footer {
     }
 
     .tela3 {
-        margin-top: 1rem;
         margin-left: 1rem;
         width: 100%;
+        margin-top: 4rem;
+        padding-top: 4rem;
+        display: flex;
+        justify-content: flex-start;
+
     }
     
     .tela3 h2 {
@@ -336,7 +360,7 @@ footer {
         flex-direction: column;
         align-items: center;
         margin-top: 0.6rem;
-        margin-bottom: 5rem;
+
     }
     
     .logotipo-footer {
